@@ -231,7 +231,7 @@ def findEventType(events, event_syn, sent):
 #finding out the events
 def findEventCategory(senttext1):
 
-    events = ["kill","strike","murder","attack","protest","terror","suicide","rape","kidnap","crime","fight","curfew","molest","stone pelting","shoot","Violence","explosion"]
+    events = ["kill","strike","murder","attack","protest","terror","suicide","rape","kidnap","crime","fight","curfew","molest","stone pelting","shoot","Violence","explosion"]#event classes
     event_syn = []
     for event in events:
         syn = findSyn(event)
