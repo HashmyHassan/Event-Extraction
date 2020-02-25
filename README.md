@@ -21,4 +21,4 @@ Output: Stores data in all the 4 folders
 5.un event_extraction.py
 This module identifies location and date and event type associated with each sentences in the news article and creates a final csv file containg event,evet_type,event_location, event_date,event_url and event_news_id.
 
-6.ideltime temporal tagger and AllenNLP NER are used for identifying date and locations associated with each events.
+6.Hideltime temporal tagger and AllenNLP NER are used for identifying date and locations associated with each events.
